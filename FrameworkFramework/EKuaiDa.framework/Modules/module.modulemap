@@ -1,0 +1,11 @@
+framework module EKuaiDa {
+  umbrella header "EKuaiDa.h"
+
+  export *
+  module * { export * }
+}
+
+module EKuaiDa.Swift {
+    header "EKuaiDa-Swift.h"
+    requires objc
+}
